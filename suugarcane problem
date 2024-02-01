@@ -1,0 +1,35 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+      int pro=50;
+      int n;
+      double tot;
+      Scanner sc= new Scanner(System.in);
+      int a=sc.nextInt();
+      while(a>0){
+      n=sc.nextInt();
+      int act=n*50;
+      tot=(0.3*act);
+      System.out.print(tot);
+      a=a-1;
+      }
+  }
+}
+//approach 2 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+      int pro=50;
+      int n;
+      double tot;
+      Scanner sc= new Scanner(System.in);
+      int a=sc.nextInt();
+      while(a>0){
+      n=sc.nextInt();
+      int act=n*50;
+      tot=(0.3*act);
+      System.out.print(tot);
+      a=a-1;
+      }
+  }
+}
